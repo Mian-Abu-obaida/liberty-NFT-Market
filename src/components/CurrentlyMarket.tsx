@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import Image from 'next/image';
 import authorlogo from '@/images/author.jpg';
 import CardImg from '@/images/market-01.jpg'
@@ -24,7 +24,7 @@ interface MarketItem {
 
 const CurrentlyMarket = () => {
   const [filter, setFilter] = useState('*');
-  const [items, setItems] = useState<MarketItem[]>([
+  const [items] = useState<MarketItem[]>([
     {
       id: 1,
       category: ['msc'],

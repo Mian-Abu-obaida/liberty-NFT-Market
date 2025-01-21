@@ -8,8 +8,8 @@ import Author2 from '@/images/author-02.jpg'
 import BGIMG from '@/images/dark-bg.jpg'
 
 const CreateNFTPage = () => {
-  const handleFormSubmit = (data: any) => {
-    console.log(data);
+  const handleFormSubmit = () => {
+    console.log("DONE");
     // Handle the form submission logic here
   };
 

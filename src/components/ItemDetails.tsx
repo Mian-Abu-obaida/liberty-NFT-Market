@@ -1,7 +1,7 @@
 // ItemDetails.tsx
 import React from 'react';
 import Image from 'next/image';
-import CurrentBiddings  from '@/components/CurrentBiddings';
+
 import { StaticImageData } from 'next/image';
 
 interface ItemDetailsProps {

@@ -23,7 +23,7 @@ const AuthorItems: React.FC<AuthorItemsProps> = ({ items }) => {
       <div className="relative z-[2] mb-20">
         <div className="w-24 h-0.5 bg-[#7453fc] mb-8"></div>
         <h2 className="text-3xl font-bold text-white capitalize">
-          Melanie Smith's <em className="text-[#7453fc] not-italic">Items</em>.
+          Melanie Smiths <em className="text-[#7453fc] not-italic">Items</em>.
         </h2>
       </div>
       

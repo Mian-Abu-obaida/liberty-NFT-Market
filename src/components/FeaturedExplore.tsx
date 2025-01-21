@@ -91,7 +91,7 @@ const FeaturedExplore = () => {
           emulateTouch={true}
           showIndicators={false}
           className="featured-carousel"
-          renderArrowPrev={(clickHandler, hasPrev) => (
+          renderArrowPrev={(clickHandler) => (
             <button
               onClick={clickHandler}
               className={`absolute left-[0px] top-[200px] z-10 w-[46px] h-[46px] bg-white text-[#7453fc] rounded-full flex flex-wrap items-center justify-center text-2xl transition-all hover:opacity-100 ${slidePercentage === 100 ? 'hidden' : ''}`}
@@ -99,7 +99,7 @@ const FeaturedExplore = () => {
               ‹
             </button>
           )}
-          renderArrowNext={(clickHandler, hasNext) => (
+          renderArrowNext={(clickHandler) => (
             <button
               onClick={clickHandler}
               className={`absolute right-[0px] top-[200px] z-10 w-[46px] h-[46px] bg-white text-[#7453fc] rounded-full flex flex-wrap items-center justify-center text-2xl transition-all hover:opacity-100 ${slidePercentage === 100 ? 'hidden' : ''}`}

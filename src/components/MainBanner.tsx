@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Carousel } from 'react-responsive-carousel';
@@ -22,12 +22,12 @@ const MainBanner = () => {
                 Liberty NFT Market
               </h6>
               <h2 className="text-white text-5xl font-bold leading-tight uppercase mb-5">
-                Create, Sell &amp; Collect Top NFT's.
+                Create, Sell &amp; Collect Top NFTs.
               </h2>
               <p className="text-white text-[15px] leading-[30px] mt-5">
                 Liberty NFT Market is a really cool and professional design for your NFT websites. 
                 This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related 
-                web portals. Liberty can be freely downloaded from TemplateMo's free css templates.
+                web portals. Liberty can be freely downloaded from TemplateMos free css templates.
               </p>
               <div className="flex flex-wrap mt-8 space-x-4">
                 <Link 
@@ -59,7 +59,7 @@ const MainBanner = () => {
               interval={3000}
               showArrows={true}
               
-              renderArrowPrev={(clickHandler, hasPrev) => (
+              renderArrowPrev={(clickHandler) => (
                 <button
                   onClick={clickHandler}
                   className="absolute left-0 bottom-[-76px] z-10 w-[46px] h-[46px] bg-white text-[#7453fc] rounded-full flex flex-wrap items-center justify-center text-2xl transition-opacity hover:opacity-100"
@@ -67,7 +67,7 @@ const MainBanner = () => {
                   ‹
                 </button>
               )}
-              renderArrowNext={(clickHandler, hasNext) => (
+              renderArrowNext={(clickHandler) => (
                 <button
                   onClick={clickHandler}
                   className="absolute right-0 bottom-[-76px] z-10 w-[46px] h-[46px] bg-white text-[#7453fc] rounded-full flex flex-wrap items-center justify-center text-2xl transition-opacity hover:opacity-100"

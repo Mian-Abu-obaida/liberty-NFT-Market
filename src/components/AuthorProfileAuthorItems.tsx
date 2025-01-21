@@ -4,8 +4,7 @@ import AuthorProfileImg from '@/images/single-author.jpg'
 import Author1 from '@/images/author.jpg'
 import Author2 from '@/images/author-02.jpg'
 import Author3 from '@/images/author-03.jpg'
-import discover1 from '@/images/discover-01.jpg'
-import discover2 from '@/images/discover-02.jpg'
+
 import discover3 from '@/images/discover-03.jpg'
 import discover4 from '@/images/discover-04.jpg'
 import discover5 from '@/images/discover-05.jpg'
@@ -60,7 +59,7 @@ import AuthorBG from '@/images/dark-bg.jpg'
 
   return (
     <div style={{ backgroundImage: `url(${AuthorBG.src})` }}>
-      <AuthorProfile author={author} items={items} />
+      <AuthorProfile author={author}  />
       <AuthorItems items={items} />
     </div>
   );

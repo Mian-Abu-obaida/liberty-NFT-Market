@@ -5,7 +5,7 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { IoHandRightOutline } from 'react-icons/io5';
 import { BsCurrencyDollar } from 'react-icons/bs';
 import { StaticImageData } from 'next/image';
-import AuthorItems from './AuthorItems';
+
 
 interface AuthorProfileProps {
   author: {
@@ -19,10 +19,10 @@ interface AuthorProfileProps {
       followers: number;
     };
   };
-  items: any[]; // Define the type of items based on your data structure
+ 
 }
 
-const AuthorProfile: React.FC<AuthorProfileProps> = ({ author, items }) => {
+const AuthorProfile: React.FC<AuthorProfileProps> = ({ author }) => {
   return (
     <div className="py-28 relative">
       <div className="container mx-auto px-4">

@@ -1,6 +1,6 @@
 import ItemDetails from "./ItemDetails";
 import CurrentBiddings from "./CurrentBiddings";
-import { StaticImageData } from 'next/image';
+
 import ItemImage from '@/images/item-details-01.jpg'
 import Author2 from '@/images/author-02.jpg';
 import current1 from '@/images/current-01.jpg'

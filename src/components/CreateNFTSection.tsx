@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import CreateBG from '@/images/main-bg.jpg';
-import icon1 from '@/images/icon-01.png';
+
 import icon2 from '@/images/icon-02.png';
-import icon3 from '@/images/icon-03.png';
 import icon4 from '@/images/icon-04.png';
-import icon5 from '@/images/icon-05.png';
 import icon6 from '@/images/icon-06.png';
 
 const CreateNFTSection = () => {

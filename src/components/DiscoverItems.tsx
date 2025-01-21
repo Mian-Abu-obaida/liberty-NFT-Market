@@ -117,7 +117,7 @@ const INITIAL_ITEMS: NFTItem[] = [
 ];
 
 const DiscoverItems: FC = () => {
-  const [items, setItems] = useState<NFTItem[]>(INITIAL_ITEMS);
+  // const [items, setItems] = useState<NFTItem[]>(INITIAL_ITEMS);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All Categories');
   const [selectedStatus, setSelectedStatus] = useState('Available');

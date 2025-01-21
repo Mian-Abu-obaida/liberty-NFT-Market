@@ -7,7 +7,6 @@ import { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeading from './SectionHeading';
-import { FaAngleRight } from 'react-icons/fa';
 import BGImage from '@/images/collection-01.jpg';
 
 
@@ -70,7 +69,7 @@ const Collections = () => {
         centerMode={true}
         centerSlidePercentage={slidePercentage}
         className="relative"
-        renderArrowPrev={(clickHandler, hasPrev) => (
+        renderArrowPrev={(clickHandler) => (
           
             <button
               onClick={clickHandler}
@@ -80,7 +79,7 @@ const Collections = () => {
             </button>
           
         )}
-        renderArrowNext={(clickHandler, hasNext) => (
+        renderArrowNext={(clickHandler) => (
          
             <button
               onClick={clickHandler}
